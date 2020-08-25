@@ -13,10 +13,12 @@ h1{
 
 section{
 	background-color: white;
-	margin-right: 150px;
-	margin-left: 150px;
+	text-align: left;
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
 }
-
 h5{
 	color: white;
 	text-align: center;
@@ -30,59 +32,36 @@ footer{
 }
 
 /* navbar */
-nav{
-	display: flex; 
-	background-color: white;
-	justify-content: space-between; 
-	/*padding: 20px 0;*/
-	color: blue;
-	height: 50px;
-	align-items: center;
-}
-
-nav ul{
-	display: flex;
-	list-style: none;
-	width: 20%;
-	justify-content: space-between;
-}
-
-nav ul li a{
-	color: blue;
-	text-decoration: none;
-}
-
-nav ul li a:hover{
-	color: #ffcccc;
-}
-
 ul {
+	position: fixed;
+	width: 100%;
+	top: 0;
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
-  	background-color: #fff;
+  	background-color: white;
 }
 
-/*li {
+li {
   float: right;
-  border-right:1px solid #bbb;
+  border-right:none;
 }
 
 li:last-child {
   border-left: none;
-}*/
+}
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: grey;
 }
 
 .active {
