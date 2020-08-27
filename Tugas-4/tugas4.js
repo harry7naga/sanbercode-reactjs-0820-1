@@ -2,13 +2,13 @@
 console.log('Lopping Pertama')
 var flag = 2;
 while(flag <= 20) { // Loop akan terus berjalan selama nilai flag masih dibawah 20
-  console.log(flag +' - I love looping'); // Menampilkan nilai flag pada iterasi tertentu
+  console.log(flag +' - I love Coding'); // Menampilkan nilai flag pada iterasi tertentu
   flag += 2; // Mengubah nilai flag dengan menambahkan 2 
 }
 console.log(' ')
 console.log('Lopping Kedua')
 var deret = 20;
-while(deret > 2) { // Loop akan terus berjalan selama nilai deret masih di atas sama dengan 2
+while(deret >= 2) { // Loop akan terus berjalan selama nilai deret masih di atas sama dengan 2
   console.log(deret + ' - I will become a frontend developer')
   deret -= 2; // Mengubah nilai deret dengan mengurangi 2
 }
@@ -35,7 +35,6 @@ for(var baris = 0; baris < 7; baris++){
 	s += '\n'
 }
 console.log(s)
-console.log(' ')
 
 // Soal 4
 var kalimat='saya sangat senang belajar javascript';
@@ -44,6 +43,9 @@ console.log( ar );
 console.log(' ')
 
 // Soal 5
-var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
-var urut=daftarBuah.sort();
-console.log(urut)
+var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"]; // Array acak yang berindex 5
+var urut=daftarBuah.sort(); // membuat urut dari angka terkecil ke terbesar (urutan alpabhet kalo tidak ada angka)
+// perulangan for dengan index awal atau i = 0, i lebih kecil dari index array urut kemudian dicetak lalu i+1
+for(i=0; i < urut.length; i++){
+console.log(urut[i])
+}
